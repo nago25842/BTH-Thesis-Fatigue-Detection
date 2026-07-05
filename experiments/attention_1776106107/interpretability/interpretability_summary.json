@@ -1,0 +1,72 @@
+{
+  "shap_ranking": [
+    {
+      "feature": "error_rate",
+      "mean_abs_shap": 3.065176248550415,
+      "rank": 1
+    },
+    {
+      "feature": "apm",
+      "mean_abs_shap": 1.7596023082733154,
+      "rank": 2
+    },
+    {
+      "feature": "action_gap_mean",
+      "mean_abs_shap": 1.4149398803710938,
+      "rank": 3
+    },
+    {
+      "feature": "apm_variance",
+      "mean_abs_shap": 1.0979925394058228,
+      "rank": 4
+    }
+  ],
+  "perm_ranking": [
+    {
+      "feature": "error_rate",
+      "importance": 0.1578436240796099,
+      "std": 0.028369726200445075,
+      "rank": 1
+    },
+    {
+      "feature": "apm",
+      "importance": 0.1489254859394555,
+      "std": 0.017673944582775446,
+      "rank": 2
+    },
+    {
+      "feature": "action_gap_mean",
+      "importance": 0.13988832392738967,
+      "std": 0.015250433059311303,
+      "rank": 3
+    },
+    {
+      "feature": "apm_variance",
+      "importance": 0.09885189255332696,
+      "std": 0.015299852865683193,
+      "rank": 4
+    }
+  ],
+  "combined_ranking": [
+    {
+      "feature": "error_rate",
+      "final_rank": 1
+    },
+    {
+      "feature": "apm",
+      "final_rank": 2
+    },
+    {
+      "feature": "action_gap_mean",
+      "final_rank": 3
+    },
+    {
+      "feature": "apm_variance",
+      "final_rank": 4
+    }
+  ],
+  "attention_stats": {
+    "mean_normal": 0.10354761636988806,
+    "mean_fatigued": 0.04188885198916893
+  }
+}

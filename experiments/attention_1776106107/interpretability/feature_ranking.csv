@@ -1,0 +1,5 @@
+feature,feature_label,shap_score,shap_rank,perm_importance,perm_std,perm_rank,combined_rank,final_rank
+error_rate,Error rate,3.0651762,1,0.1578436240796099,0.028369726200445075,1,1.0,1
+apm,APM,1.7596023,2,0.1489254859394555,0.017673944582775446,2,2.0,2
+action_gap_mean,Action gap (mean),1.4149399,3,0.13988832392738967,0.015250433059311303,3,3.0,3
+apm_variance,APM variance,1.0979925,4,0.09885189255332696,0.015299852865683193,4,4.0,4
